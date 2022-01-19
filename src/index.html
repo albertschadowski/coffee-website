@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index Page</title>
     <link rel="stylesheet" href="/css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oregano"
-      rel="stylesheet"
-    />
   </head>
+
   <body>
-    {{> header }}
-    <h1>Hello World Test!</h1>
-    <main>
-      <a href="/sub-page/">Link to Subpage</a>
-      <div>Home</div>
-    </main>
-    <script src="/js/index.js" type="module"></script>
+    <div class="hero-header">    
+      {{> header }}
+      <div id="hero-header-text">
+        <h1>Rustica</h1>
+        <p>Bio und Fair seit 1991</p>
+      </div>
+      <div class="button-hero">
+        <a id="btn" href="">zum Shop</a>
+      </div>
+    </div>
+
+    <div>
+      <h2>Rösterei & Café</h2>
+      <p id="test">Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen Rösterei, serviert im gemütlichen Café in der Innenstadt.</p>
+    </div>
   </body>
 </html>
