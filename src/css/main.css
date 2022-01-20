@@ -2,7 +2,8 @@
 @import "base.css";
 @import "components/Startseite-hero.css";
 @import "components/header.css";
-@import "components/info-rösterei-bio.css";
-@import "components/Kaffee-Sorten.css";
+@import "components/Startseite-Info-Rösterei-Bio.css";
+@import "components/Startseite-Kaffee-Sorten.css";
 @import "components/Startseite-Kaffee-Herkunft.css";
-@import "components/Startseite-Inhaltsstoffe.css"
+@import "components/Startseite-Inhaltsstoffe.css";
+@import "components/Startseite-Karte.css";
