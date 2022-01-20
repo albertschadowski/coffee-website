@@ -1,0 +1,85 @@
+.h2-Kaffee-sorten {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-left: 21px;
+    margin: 0;
+}
+
+.Startseite-vier-verschiedene-Kaffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Startseite-verschiedene-Kaffee {
+    margin-top: 40px;
+}
+
+.Coffee_Costa-Rica_white {
+    width: 155px;
+}
+
+.start-costa-rica-schrift {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+
+.startseite-preise {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #737373;
+    margin: 0;
+}
+
+.div-btn-alle-Produkte {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.btn-alle-Produkte {
+    background: #1A1A1A;
+    background-image: -webkit-linear-gradient(top, #1A1A1A, #1A1A1A);
+    background-image: -moz-linear-gradient(top, #1A1A1A, #1A1A1A);
+    background-image: -ms-linear-gradient(top, #1A1A1A, #1A1A1A);
+    background-image: -o-linear-gradient(top, #1A1A1A, #1A1A1A);
+    background-image: linear-gradient(to bottom, #1A1A1A, #1A1A1A);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    border: 3px solid #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 50px 15px 50px;
+    text-decoration: none;
+    
+}
+
+.btn-alle-Produkte:hover {
+    background: #3A3734;
+    text-decoration: none;
+}
+
+.btn-alle-Produkte:active {
+    background: #D7BE9D;
+}
+
+#Kaffee-Sorten {
+    background-color: #1A1A1A;
+}
