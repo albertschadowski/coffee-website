@@ -9,7 +9,7 @@
 }
 
 .h3-Kaffee-Herkunft {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -20,12 +20,12 @@
 }
 
 .div-p-Kaffee-Herkunft {
-    width: 300px;
+    max-width: 300px;
     text-align: center;
 }
 
 .p-Kaffee-Herkunft {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -34,7 +34,7 @@
 }
 
 .a-Kaffee-Herkunft {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

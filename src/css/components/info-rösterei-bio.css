@@ -1,5 +1,5 @@
 .h2-rösterei {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -10,7 +10,7 @@
 }
 
 .p-rösterei {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -21,7 +21,7 @@
 }
 
 .p-zeiten {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

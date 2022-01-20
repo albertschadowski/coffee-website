@@ -1,0 +1,36 @@
+.h2-Inhalt {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.div-img-Coffee-Costa-Rica {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+.img-Coffee-Costa-Rica {
+    width: 214px;
+}
+
+.div-all-icons-Inhaltsstoffe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-icons {
+    text-align: center;
+}
+
+.btn-zum-Shop-Inhaltsstoffe {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
