@@ -1,0 +1,58 @@
+.div-footer {
+    background: #000000;
+}
+
+.footer-logo {
+    padding-top: 61px;
+    padding-left: 22px;
+}
+
+.footer-Adresse {
+    padding: 34px 17px 34px 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-Öffnungszeiten {
+    padding-left: 45px;
+}
+
+.footer-Impressum {
+    padding: 0px 17px 34px 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-Shop {
+    padding-left: 102px;
+}
+
+.h3-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.h4-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.p-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
