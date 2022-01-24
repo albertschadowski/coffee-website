@@ -21,10 +21,10 @@
 }
 
 .hero-header {
-  background: url(/images/Coffee-latte-art-3.jpg);
+  background: url(/images/Coffee-latte-art.jpg);
   background-size: cover;
   text-align: center;
-    
+  background-position: center;    
 }
 
 .button-hero {
