@@ -1,7 +1,8 @@
 @import "variables.css";
 @import "base.css";
 @import "components/Startseite-hero.css";
-@import "components/header.css";
+@import "components/header-mobile.css";
+@import "components/header-desktop.css";
 @import "components/Startseite-Info-Rösterei-Bio.css";
 @import "components/Startseite-Kaffee-Sorten.css";
 @import "components/Startseite-Kaffee-Herkunft.css";

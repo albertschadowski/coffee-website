@@ -21,7 +21,7 @@
 }
 
 .hero-header {
-  background: url(/images/Coffee-latte-art.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/Coffee-latte-art.jpg);
   background-size: cover;
   text-align: center;
   background-position: center;    
@@ -33,7 +33,7 @@
 }
 
 #hero-header-text {
-  margin-top: 148px;
+  padding-top: 148px;
 }
 
 .btn-zum-Shop {
