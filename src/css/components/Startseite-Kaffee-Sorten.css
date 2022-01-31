@@ -83,3 +83,18 @@
 #Kaffee-Sorten {
     background-color: #1A1A1A;
 }
+
+/* media queries */
+
+@media (min-width: 992px) {
+    .h2-Kaffee-sorten {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 56px;
+        max-width: 400px;
+    }
+
+    .Coffee_Costa-Rica_white {
+        width: 299px;
+    }
+}

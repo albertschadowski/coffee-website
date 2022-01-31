@@ -16,8 +16,7 @@
     font-size: 32px;
     line-height: 37px;
     color: #FFFFFF;
-    margin: 0;
-    
+    margin: 0;    
 }
 
 .div-p-Kaffee-Herkunft {
@@ -43,4 +42,27 @@
     color: #FFFFFF;
     text-decoration: none;
     
+}
+
+/* media queries */
+
+@media (min-width: 992px) {
+    /* .Kaffee-Herkunft {
+        height: 50vh;
+    } */
+
+    .h3-Kaffee-Herkunft {
+        font-size: 42px;
+        line-height: 49px;
+    }
+
+    .p-Kaffee-Herkunft {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .a-Kaffee-Herkunft {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }

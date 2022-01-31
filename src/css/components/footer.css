@@ -7,6 +7,10 @@
     padding-left: 22px;
 }
 
+.footer-Logo-Desktop {
+    display: none;
+}
+
 .footer-Adresse {
     padding: 34px 17px 34px 24px;
     display: flex;
@@ -55,4 +59,44 @@
     line-height: 18px;
     color: #FFFFFF;
     margin: 0;
+}
+
+/* media queries */
+
+@media (min-width: 992px) {
+    .div-footer {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-logo {
+        padding: 100px ;
+    }
+
+    .footer-Logo-Desktop {
+        display: inline;
+    }
+
+    .footer-Logo-Mobile {
+        display: none;
+    }
+
+    .footer-Adresse {
+        flex-direction: column;
+        padding: 120px 100px 0 0;
+    }
+
+    .footer-Öffnungszeiten {
+        padding-left: 0;
+        padding-top: 27px;
+    }
+
+    .footer-Impressum {
+        padding: 80px 0 0 0;
+    }
+
+    .h3-footer {
+        font-size: 42px;
+        line-height: 49px;
+    }
 }
