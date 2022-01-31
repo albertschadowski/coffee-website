@@ -30,14 +30,12 @@
     padding-right: 25px;
 }
 
-.Coffee-shop {
-    width: 241px;    
+.Startseite-Rösterei-Cafe {
+    max-width: 507px;
 }
 
-@media (min-width: 576px) {
-    .Coffee-shop {
-        width: 400px;
-    }
+.Coffee-shop {
+    width: 241px;    
 }
 
 .bild-coffee-shop {
@@ -54,6 +52,10 @@
 
 /*ab hier alles Bio-plant*/
 
+.Startseite-Bio {
+    max-width: 507px;
+}
+
 .Coffee-plant {
     width: 241px;
 }
@@ -64,4 +66,92 @@
     margin-left: 24px;
     margin-top: 40px;
     margin-bottom: 63px;
+}
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+    .Coffee-shop {
+        width: 250px;
+    }
+
+    .Startseite-Info-Rösterei {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Startseite-Info-Bio {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .Coffee-plant {
+        width: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Coffee-shop {
+        width: 350px;
+    }
+
+    .Coffee-plant {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Coffee-shop {
+        width: 500px;
+    }
+
+    .h2-rösterei {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 56px;
+        color: #000000;
+    }
+
+    .p-rösterei {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .p-zeiten {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .Coffee-plant {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Coffee-shop {
+        width: 607px;
+    }
+
+    .Startseite-Info-Rösterei {
+        padding: 80px;
+    }
+
+    .Coffee-plant {
+        width: 607px;
+    }
+
+    .Startseite-Info-Bio {
+        padding: 40px 80px 80px 80px;
+    }
 }

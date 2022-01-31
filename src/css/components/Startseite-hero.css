@@ -24,7 +24,8 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/Coffee-latte-art.jpg);
   background-size: cover;
   text-align: center;
-  background-position: center;    
+  background-position: center;
+  height: 75vh;    
 }
 
 .button-hero {
@@ -32,7 +33,7 @@
   padding-top: 199px;
 }
 
-#hero-header-text {
+.hero-header-text {
   padding-top: 148px;
 }
 
@@ -61,4 +62,43 @@
 
 .btn-zum-Shop:active {
   background: #D7BE9D;
+}
+
+@media (min-width: 576px) {
+  .button-hero {
+    padding-bottom: 80px;
+  }
+        
+}
+
+@media (max-height: 750px) {
+  .hero-header {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .h1-hero {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 110px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .p-hero {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;  
+  }
+
+  /* .hero-header {
+    height: 65vh;
+  } */
 }
