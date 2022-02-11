@@ -5,8 +5,8 @@
     padding-top: 18px;
 }
 
-.Kaffee-Bohne-desktop {
-    margin-right: 550px;
+.a-nav-desktop-Cafe {
+    margin-left: 550px;
 }
 
 .a-nav-desktop{
@@ -26,8 +26,8 @@
 }
 
 @media (min-width: 1200px) {
-    .Kaffee-Bohne-desktop {
-        margin-right: 800px;
+    .a-nav-desktop-Cafe {
+        margin-left: 800px;
     }
 
 }

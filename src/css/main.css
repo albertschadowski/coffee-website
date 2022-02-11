@@ -1,11 +1,14 @@
 @import "variables.css";
 @import "base.css";
-@import "components/Startseite-hero.css";
-@import "components/header-mobile.css";
-@import "components/header-desktop.css";
-@import "components/Startseite-Info-Rösterei-Bio.css";
-@import "components/Startseite-Kaffee-Sorten.css";
-@import "components/Startseite-Kaffee-Herkunft.css";
-@import "components/Startseite-Inhaltsstoffe.css";
-@import "components/Startseite-Karte.css";
-@import "components/footer.css";
+
+@import "Startseite/header-mobile.css";
+@import "Startseite/header-desktop.css";
+@import "Startseite/Startseite-hero.css";
+@import "Startseite/Startseite-Info-Rösterei-Bio.css";
+@import "Startseite/Startseite-Kaffee-Sorten.css";
+@import "Startseite/Startseite-Kaffee-Herkunft.css";
+@import "Startseite/Startseite-Inhaltsstoffe.css";
+@import "Startseite/Startseite-Karte.css";
+@import "Startseite/footer.css";
+
+@import "das-Cafe/das-Cafe-Hero.css"
