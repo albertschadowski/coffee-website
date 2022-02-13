@@ -1,0 +1,18 @@
+.Bildergallerie {
+    margin-top: 48px;
+    margin-bottom: 60px;
+    display: grid;
+    justify-content: center;
+    grid-gap: 16px;
+    grid-template-columns: 156px 156px;
+    grid-template-rows: 117px 104px 209px 209px;
+}
+
+.Bildergallerie-Bild-1 {
+    /* grid-row-start: 1;
+    grid-row-end: 3;  */
+}
+
+.Bild-1 {
+    width: 100%;
+}

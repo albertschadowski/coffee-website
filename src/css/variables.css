@@ -1,0 +1,49 @@
+:root {
+
+    /* collors */
+    --color-white: #FFFFFF;
+    --color-anthrazit: #1A1A1A;
+    --color-Kraftpapier: #D7BE9D;
+    --color-petrol: #006D7E;
+    --color-rosa: #EDD1C9;
+    --color-orange: #D77C12;
+    --color-medium-grey: #737373;
+    --color-light-grey: #E9E9E9;
+
+    /* desktop */
+    --h1-font-family: 'Roboto', sans-serif;
+    --h1-font-size: 96px;
+    --h1-line-height: 1,1%;
+
+    --h2-font-family: 'Roboto', sans-serif;
+    --h2-font-size: 48px;
+    --h2-line-height: 1,1%;
+
+    --h3-font-family: 'Roboto', sans-serif;
+    --h3-font-size: 42px;
+    --h3-line-height: 1,1%;
+
+    --body-font-family: 'Roboto', sans-serif;
+    --body-font-size: 18px;
+    --body-line-height: 1,3%;
+
+    /* mobile */
+
+    --h1m-font-family: 'Roboto', sans-serif;
+    --h1m-font-size: 64px;
+    --h1m-line-height: 1,1%;
+
+    --h2m-font-family: 'Roboto', sans-serif;
+    --h2m-font-size: 36px;
+    --h2m-line-height: 1,1%;
+
+    --h3m-font-family: 'Roboto', sans-serif;
+    --h3m-font-size: 32px;
+    --h3m-line-height: 1,1%;
+
+    --body-m-font-family: 'Roboto', sans-serif;
+    --body-m-font-size: 14px;
+    --body-m-line-height: 1,3%;
+
+
+}

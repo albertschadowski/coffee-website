@@ -1,0 +1,17 @@
+.der-Ursprung {
+    margin-top: 60px;
+    margin-left: 24px;
+    margin-bottom: 56px;
+}
+
+.h2-der-Ursprung {
+    font-family: var(--h2m-font-family);
+    font-size: var(--h2m-font-size);
+    line-height: var(--h2m-line-height);  
+}
+
+.p-der-Ursprung {
+    font-family: var(--body-m-font-family);
+    font-size: var(--body-m-font-size);
+
+}

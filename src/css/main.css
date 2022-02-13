@@ -11,4 +11,10 @@
 @import "Startseite/Startseite-Karte.css";
 @import "Startseite/footer.css";
 
-@import "das-Cafe/das-Cafe-Hero.css"
+@import "das-Cafe/das-Cafe-Hero.css";
+@import "das-Cafe/das-Cafe-Bildergallerie.css";
+
+@import "die-Herkunft/die-Herkunft-Hero.css";
+@import "die-Herkunft/die-Herkunft-video.css";
+@import "die-Herkunft/die-Herkunft-Ursprung.css";
+@import "die-Herkunft/die-Herkunft-Anbaugebiete.css";
