@@ -32,7 +32,7 @@
 }
 
 .h3-footer {
-    font-family: Roboto;
+    font-family: var(--h3-font-family);
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -42,7 +42,7 @@
 }
 
 .h4-footer {
-    font-family: Roboto;
+    font-family: var(--h3-font-family);
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -51,8 +51,20 @@
     margin: 0;
 }
 
+.a-footer {
+    font-family: var(--h3-font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+}
+
 .p-footer {
-    font-family: Roboto;
+    font-family: var(--h3-font-family);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
