@@ -1,6 +1,7 @@
 .Anbaugebiete {
     margin-top: 60px;
     margin-left: 24px;
+    margin-right: 24px;
 }
 
 .h3-Anbaugebiete {
@@ -31,6 +32,7 @@
 .Kaffeebauern {
     margin-left: 24px;
     margin-top: 60px;
+    margin-right: 24px;
 }
 
 .h3-Kaffeebauern {
@@ -52,4 +54,100 @@
 
 .img-Kaffeebauern {
     width: 241px;
+}
+
+/* media queries */
+
+@media (min-width: 576px) {
+    .Coffee-Plant2 {
+        width: 350px;
+    }
+
+    .img-Kaffeebauern {
+        width: 350px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Coffee-Plant2 {
+        width: 450px;
+    }
+
+    .img-Kaffeebauern {
+        width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Anbaugebiete {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Anbaugebiete-Text {
+        max-width: 300px;
+    }
+
+    .Coffee-Plant2 {
+        margin-top: 80px;
+        width: 500px;
+    }
+
+    .Kaffeebauern {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+
+    .Kaffebauern-Text {
+        max-width: 400px;
+    }
+
+    .img-Kaffeebauern {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Anbaugebiete-Text {
+        max-width: 400px;
+    }
+
+    .h3-Anbaugebiete {
+        font-family: var(--h3-font-family);
+        font-size: var(--h3-font-size);
+        line-height: var(--h3-line-height);
+    }
+
+    .p-Anbaugebiete {
+        font-family: var(--body-font-family);
+        font-size: var(--body-font-size);
+        line-height: var(--body-line-height);
+    }
+
+    .Coffee-Plant2 {
+        width: 600px;
+    }
+
+    .h3-Kaffeebauern {
+        font-family: var(--h3-font-family);
+        font-size: var(--h3-font-size);
+        line-height: var(--h3-line-height);
+    }
+
+    .p-Kaffeebauern {
+        font-family: var(--body-font-family);
+        font-size: var(--body-font-size);
+        line-height: var(--body-line-height);
+    }
+}
+
+@media (min-width: 1920px) {
+    .Coffee-Plant2 {
+        width: 717px;
+    }
+
+    .img-Kaffeebauern {
+        width: 508px;
+    }
 }

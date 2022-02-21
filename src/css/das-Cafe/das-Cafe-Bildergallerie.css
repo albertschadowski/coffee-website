@@ -36,7 +36,39 @@
 
 /* media queries */
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
+    .Bildergallerie {
+        grid-gap: 16px;
+        grid-template-columns: 190px 190px 190px 190px;
+        grid-template-rows: 120px 120px 120px;
+
+    }
+
+    .Bildergallerie-Bild-2 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .Bildergallerie-Bild-5 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .Bildergallerie-Bild-6 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .Bildergallerie-Bild-7 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    
+}
+
+@media (min-width: 1250px) {
     .Bildergallerie {
         grid-gap: 16px;
         grid-template-columns: 298px 298px 298px 298px;
