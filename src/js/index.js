@@ -1,7 +1,16 @@
-import myFunction, { multiply } from "./myModule";
+// import myFunction, { multiply } from "./myModule";
 
-myFunction();
+// myFunction();
 
-const result = multiply(2, 5);
+// const result = multiply(2, 5);
 
-console.log(result);
+// console.log(result);
+
+const burgerMenu = document.querySelector(".burger-menu-mobile");
+burgerMenu.addEventListener("click", openNavMenu);
+
+const navMobile = document.querySelector(".nav-mobile")
+
+function openNavMenu() {
+    navMobile.classList.toggle("nav-mobile-active")
+}
