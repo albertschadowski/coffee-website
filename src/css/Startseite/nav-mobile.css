@@ -4,12 +4,13 @@
     bottom: 0;
     left: 0;
     right: 0;
-    position: absolute;
+    position: fixed;
     transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
 }
 
 .nav-mobile-active {
-    transform: translateX(0%);
+    transform: translateX(0%);   
 }
 
 .div-nav-close {
@@ -20,4 +21,17 @@
 .nav-close {
     margin-top: 22px;
     margin-right: 26px;
+    transition: all 1s;
+}
+
+.nav-close:hover {
+    transform: rotate(90deg);
+}
+
+.nav-navigation-items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+    
 }

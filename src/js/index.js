@@ -6,11 +6,6 @@
 
 // console.log(result);
 
-const burgerMenu = document.querySelector(".burger-menu-mobile");
-burgerMenu.addEventListener("click", openNavMenu);
+import navBar from "./navbar";
 
-const navMobile = document.querySelector(".nav-mobile")
-
-function openNavMenu() {
-    navMobile.classList.toggle("nav-mobile-active")
-}
+navBar();
