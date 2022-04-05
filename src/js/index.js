@@ -6,6 +6,9 @@
 
 // console.log(result);
 
-import navBar from "./navbar";
+import navBar, { header } from "./navbar";
 
-navBar();
+document.addEventListener("DOMContentLoaded", function (event) {
+  navBar();
+  header();
+});
